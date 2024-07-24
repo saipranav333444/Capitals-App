@@ -1,0 +1,90 @@
+.bg-container {
+  background-color: #93c5fd;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.app-container {
+  background-color: #f8fafc;
+  background-size: cover;
+  border-radius: 8px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  width: 94%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 75%;
+    padding: 48px;
+  }
+}
+
+.title {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 42px;
+  }
+}
+
+.select-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-capital {
+  color: #000000;
+  border: 1px solid #cbd2d9;
+  padding-left: 12px;
+  font-size: 18px;
+  padding: 6px;
+  padding-right: 10px;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-capital {
+    font-size: 22px;
+  }
+}
+
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+}
+
+.description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 430;
+  font-size: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+.country {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
